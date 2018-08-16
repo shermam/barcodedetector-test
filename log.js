@@ -2,7 +2,7 @@ let count = 1;
 
 export function log(msg) {
 
-    if (msg.message) {
+    if (msg && msg.message) {
         msg = msg.message;
     }
 
